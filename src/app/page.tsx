@@ -21,15 +21,25 @@ library.add(fas, fab);
 
 export default function Home() {
   const skillItems = skills.map((skill, index) => (
-    <div className="flex items-center justify-center rounded-full border px-4 py-2">
+    <div
+      key={skill.name + index}
+      className="flex items-center justify-center rounded-full border px-4 py-2"
+    >
+      {/* @ts-ignore */}
       <FontAwesomeIcon className="mr-2 h-6 w-6" icon={skill.icon} />
-      <p className="">{skill.name}</p>
+      <p>{skill.name}</p>
     </div>
   ));
 
   const contactItems = contact.map((item, index) => (
-    <a href={item.link} target="_blank" rel="noopener noreferrer">
+    <a
+      key={item.label + index}
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className="flex items-center justify-center rounded-full border px-4 py-2">
+        {/* @ts-ignore */}
         <FontAwesomeIcon className="h-6 w-6" icon={item.icon} />
         {item.label && <p className="ml-2">{item.label}</p>}
       </div>
@@ -37,7 +47,10 @@ export default function Home() {
   ));
 
   const experienceItems = experience.map((item, index) => (
-    <div className="flex flex-col items-center justify-center gap-2 md:max-w-[30%]">
+    <div
+      key={item.title + index}
+      className="flex flex-col items-center justify-center gap-2 md:max-w-[30%]"
+    >
       <p>{item.date}</p>
       <div className="hidden h-3 w-3 rounded-full bg-black dark:bg-white md:block"></div>
       <div className="text-center">
@@ -48,7 +61,10 @@ export default function Home() {
   ));
 
   const projectItems = projects.map((project, index) => (
-    <div className="flex w-[280px] flex-col items-start justify-center gap-2">
+    <div
+      key={project.title + index}
+      className="flex w-[280px] flex-col items-start justify-center gap-2"
+    >
       <a href={project.link}>
         <p className="font-semibold underline">{project.title}</p>
       </a>
