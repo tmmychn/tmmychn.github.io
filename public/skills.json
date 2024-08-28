@@ -1,0 +1,34 @@
+[
+    {
+        "icon": "fa-brands fa-react",
+        "name": "React"
+    },
+    {
+        "icon": "fa-brands fa-react",
+        "name": "TypeScript"
+    },
+    {
+        "icon": "fa-brands fa-react",
+        "name": "AlpineJS"
+    },
+    {
+        "icon": "fa-brands fa-vuejs",
+        "name": "Vue.js"
+    },
+    {
+        "icon": "fa-brands fa-hubspot",
+        "name": "Hubspot CMS"
+    },
+    {
+        "icon": "fa-brands fa-css3-alt",
+        "name": "Tailwind CSS"
+    },
+    {
+        "icon": "fa-brands fa-figma",
+        "name": "Figma"
+    },
+    {
+        "icon": "fa-brands fa-react",
+        "name": "Adobe Experience Manager"
+    }
+]

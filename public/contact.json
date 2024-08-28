@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "fa-solid fa-envelope",
+        "label": "tommycxy22@gmail.com",
+        "link": "mailto:tommycxy22@gmail.com"
+    },
+    {
+        "icon": "fa-brands fa-linkedin",
+        "label": "",
+        "link": "https://www.linkedin.com/in/tmmychn"
+    },
+    {
+        "icon": "fa-brands fa-github",
+        "label": "",
+        "link": "https://github.com/tmmychn"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Hong Leong Assurance Website (2024)",
+      "techStack": "React, TypeScript, Tailwind.css, AEM",
+      "description": "Contributed to key component development and UAT fixes.",
+      "link": "https://www.hla.com.my/en/home.html"
+    },
+    {
+      "title": "Taylor’s University Website (2023)",
+      "techStack": "Vue3, Tailwind.css, AEM",
+      "description": "End-to-end website development, handled key interactions and complex components.",
+      "link": "https://university.taylors.edu.my/en.html"
+    },
+    {
+        "title": "U Mobile Website (2024)",
+        "techStack": "Vue3, Tailwind.css, AEM",
+        "description": "Website maintenance & support.",
+        "link": "https://www.u.com.my/en/personal/home"
+    },
+    {
+        "title": "RHB Group Website (2022)",
+        "techStack": "PReact, Tailwind.css, Sitecore",
+        "description": "Developed a multi-step web form.",
+        "link": "https://www.rhbgroup.com/index.html"
+    },
+    {
+        "title": "GrowthOps Asia Website (2024)",
+        "techStack": "React, Tailwind.css, Hubspot CMS",
+        "description": "Led the project as the sole developer.",
+        "link": "https://www.growthops.asia/"
+    },
+    {
+        "title": "AIA Singapore Website (2022)",
+        "techStack": "Vue3, Tailwind.css, AEM",
+        "description": "Worked on numerous client requests.",
+        "link": "https://www.aia.com.sg/en/index"
+    }
+]
