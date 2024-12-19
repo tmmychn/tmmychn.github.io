@@ -1,6 +1,10 @@
 [
     {
         "icon": "fa-brands fa-react",
+        "name": "Next.js"
+    },
+    {
+        "icon": "fa-brands fa-react",
         "name": "React"
     },
     {
