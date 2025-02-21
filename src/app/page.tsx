@@ -13,7 +13,7 @@ import {
 import { ModeToggle } from "@/components/ui/toggle-mode";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { IconProp, library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
@@ -23,7 +23,7 @@ export default function Home() {
   const skillItems = skills.map((skill, index) => (
     <div
       key={skill.name + index}
-      className="flex items-center justify-center rounded-full border px-4 py-2"
+      className="hover:animate-gradient flex items-center justify-center rounded-full border px-4 py-2 transition-all duration-500 ease-out hover:cursor-default hover:border-transparent hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-[length:200%_200%] hover:text-white"
     >
       {/* @ts-ignore */}
       <FontAwesomeIcon className="mr-2 h-6 w-6" icon={skill.icon} />
@@ -38,10 +38,23 @@ export default function Home() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="flex items-center justify-center rounded-full border px-4 py-2">
-        {/* @ts-ignore */}
-        <FontAwesomeIcon className="h-6 w-6" icon={item.icon} />
-        {item.label && <p className="ml-2">{item.label}</p>}
+      <div className="group relative flex items-center justify-center rounded-full p-[1px] transition-all duration-500 hover:-translate-y-2">
+        <div
+          className="group-hover:animate-gradient absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 opacity-0 transition-opacity group-hover:opacity-100"
+          style={{ backgroundSize: "300% 100%" }}
+        />
+        <div className="relative flex items-center justify-center rounded-full border bg-background px-4 py-2">
+          {/* @ts-ignore */}
+          <FontAwesomeIcon
+            className="h-6 w-6 transition-all duration-500 group-hover:text-purple-500"
+            icon={item.icon as IconProp}
+          />
+          {item.label && (
+            <p className="ml-2 transition-all duration-500 group-hover:bg-gradient-to-r group-hover:from-purple-500 group-hover:via-pink-500 group-hover:to-orange-500 group-hover:bg-clip-text group-hover:text-transparent">
+              {item.label}
+            </p>
+          )}
+        </div>
       </div>
     </a>
   ));
