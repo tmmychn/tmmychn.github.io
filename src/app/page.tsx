@@ -25,8 +25,7 @@ export default function Home() {
       key={skill.name + index}
       className="hover:animate-gradient flex items-center justify-center rounded-full border px-4 py-2 transition-all duration-500 ease-out hover:cursor-default hover:border-transparent hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-[length:200%_200%] hover:text-white"
     >
-      {/* @ts-ignore */}
-      <FontAwesomeIcon className="mr-2 h-6 w-6" icon={skill.icon} />
+      <FontAwesomeIcon className="mr-2 h-6 w-6" icon={skill.icon as IconProp} />
       <p>{skill.name}</p>
     </div>
   ));
@@ -44,7 +43,6 @@ export default function Home() {
           style={{ backgroundSize: "300% 100%" }}
         />
         <div className="relative flex items-center justify-center rounded-full border bg-background px-4 py-2">
-          {/* @ts-ignore */}
           <FontAwesomeIcon
             className="h-6 w-6 transition-all duration-500 group-hover:text-purple-500"
             icon={item.icon as IconProp}
