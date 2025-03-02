@@ -1,38 +1,38 @@
 [
-    {
-      "title": "Hong Leong Assurance Website (2024)",
-      "techStack": "React, TypeScript, Tailwind.css, AEM",
-      "description": "Contributed to key component development and UAT fixes.",
-      "link": "https://www.hla.com.my/en/home.html"
-    },
-    {
-      "title": "Taylor’s University Website (2023)",
-      "techStack": "Vue3, Tailwind.css, AEM",
-      "description": "End-to-end website development, handled key interactions and complex components.",
-      "link": "https://university.taylors.edu.my/en.html"
-    },
-    {
-        "title": "U Mobile Website (2024)",
-        "techStack": "Vue3, Tailwind.css, AEM",
-        "description": "Website maintenance & support.",
-        "link": "https://www.u.com.my/en/personal/home"
-    },
-    {
-        "title": "RHB Group Website (2022)",
-        "techStack": "PReact, Tailwind.css, Sitecore",
-        "description": "Developed a multi-step web form.",
-        "link": "https://www.rhbgroup.com/index.html"
-    },
-    {
-        "title": "GrowthOps Asia Website (2024)",
-        "techStack": "React, Tailwind.css, Hubspot CMS",
-        "description": "Led the project as the sole developer.",
-        "link": "https://www.growthops.asia/"
-    },
-    {
-        "title": "AIA Singapore Website (2022)",
-        "techStack": "Vue3, Tailwind.css, AEM",
-        "description": "Worked on numerous client requests.",
-        "link": "https://www.aia.com.sg/en/index"
-    }
+  {
+    "title": "GrowthOps Asia Website (2024)",
+    "techStack": "React, Tailwind.css, Hubspot CMS",
+    "description": "Led the project as the sole developer. Planned out deliverables and project timeline, developed around 30 React components with a focus on maintainability and easy customisation in a span of under 6 months.",
+    "link": "https://www.growthops.asia/"
+  },
+  {
+    "title": "UOB Singapore Website CNIT tool (2024)",
+    "techStack": "Alpine.js, Tailwind.css",
+    "description": "Led a small team of 2 junior developers in the development of a multi-step web form. Also developed 4 new components for the website.",
+    "link": "https://www.uob.com.sg/business/accounts-transact/index.page"
+  },
+  {
+    "title": "Hong Leong Assurance Website (2024)",
+    "techStack": "React, TypeScript, Tailwind.css, AEM",
+    "description": "Contributed to a total of 20 UAT component bug fixes and Adobe Analytics implementation.",
+    "link": "https://www.hla.com.my/en/home.html"
+  },
+  {
+    "title": "Taylor’s University Website (2023)",
+    "techStack": "Vue3, Tailwind.css, AEM",
+    "description": "End-to-end website development. Participated in early stages of project planning, handled key interactions and complex components.",
+    "link": "https://university.taylors.edu.my/en.html"
+  },
+  {
+    "title": "U Mobile Website (2023)",
+    "techStack": "Vue3, Tailwind.css, AEM",
+    "description": "Website maintenance & support. Implemented Adobe Analytics.",
+    "link": "https://www.u.com.my/en/personal/home"
+  },
+  {
+    "title": "RHB Group Website (2022)",
+    "techStack": "PReact, Tailwind.css, Sitecore",
+    "description": "Developed a multi-step web form (URUS).",
+    "link": "https://www.rhbgroup.com/index.html"
+  }
 ]

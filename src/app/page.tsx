@@ -23,7 +23,7 @@ export default function Home() {
   const skillItems = skills.map((skill, index) => (
     <div
       key={skill.name + index}
-      className="hover:animate-gradient flex items-center justify-center rounded-full border px-4 py-2 transition-all duration-500 ease-out hover:cursor-default hover:border-transparent hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-[length:200%_200%] hover:text-white"
+      className="flex items-center justify-center rounded-full border px-4 py-2 transition-all duration-500 ease-out hover:animate-gradient hover:cursor-default hover:border-transparent hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-[length:200%_200%] hover:text-white"
     >
       <FontAwesomeIcon className="mr-2 h-6 w-6" icon={skill.icon as IconProp} />
       <p>{skill.name}</p>
@@ -39,7 +39,7 @@ export default function Home() {
     >
       <div className="group relative flex items-center justify-center rounded-full p-[1px] transition-all duration-500 hover:-translate-y-2">
         <div
-          className="group-hover:animate-gradient absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 opacity-0 transition-opacity group-hover:opacity-100"
+          className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 opacity-0 transition-opacity group-hover:animate-gradient group-hover:opacity-100"
           style={{ backgroundSize: "300% 100%" }}
         />
         <div className="relative flex items-center justify-center rounded-full border bg-background px-4 py-2">
@@ -81,7 +81,7 @@ export default function Home() {
       </a>
       <div className="">
         <p className="">{project.techStack}</p>
-        <p className="opacity-50">{project.description}</p>
+        <p className="mt-2 text-sm opacity-50">{project.description}</p>
       </div>
     </div>
   ));
