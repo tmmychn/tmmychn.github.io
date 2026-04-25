@@ -20,6 +20,9 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fas, fab);
 
 export default function Home() {
+  const experienceLineLeftPercent = 50 / experience.length;
+  const experienceLineWidthPercent = 100 - 100 / experience.length;
+
   const skillItems = skills.map((skill, index) => (
     <div
       key={skill.name + index}
@@ -76,7 +79,7 @@ export default function Home() {
       key={project.title + index}
       className="flex w-[280px] flex-col items-start justify-center gap-2"
     >
-      <a href={project.link}>
+      <a href={project.link} target="_blank" rel="noopener noreferrer">
         <p className="font-semibold underline">{project.title}</p>
       </a>
       <div className="">
@@ -152,7 +155,14 @@ export default function Home() {
               <CardTitle>Experience</CardTitle>
             </CardHeader>
             <CardContent className="relative flex flex-col items-center justify-between gap-8 md:flex-row md:items-start md:gap-0">
-              <div className="absolute left-[15%] top-1/4 hidden h-2 w-[73%] border-b border-dashed border-black dark:border-white md:block"></div>
+              <div
+                className="absolute hidden border-b border-dashed border-black dark:border-white md:block"
+                style={{
+                  top: "2.375rem",
+                  left: `${experienceLineLeftPercent}%`,
+                  width: `${experienceLineWidthPercent}%`,
+                }}
+              />
               {experienceItems}
             </CardContent>
           </Card>

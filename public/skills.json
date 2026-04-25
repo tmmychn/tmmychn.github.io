@@ -20,8 +20,12 @@
         "name": "Vue.js"
     },
     {
-        "icon": "fa-brands fa-hubspot",
-        "name": "Hubspot CMS"
+        "icon": "fa-brands fa-react",
+        "name": "React Native"
+    },
+    {
+        "icon": "fa-solid fa-chart-line",
+        "name": "Splunk"
     },
     {
         "icon": "fa-brands fa-css3-alt",
@@ -32,7 +36,7 @@
         "name": "Figma"
     },
     {
-        "icon": "fa-brands fa-react",
-        "name": "Adobe Experience Manager"
+        "icon": "fa-solid fa-vial",
+        "name": "Jest"
     }
 ]
